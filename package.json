@@ -1,6 +1,6 @@
 {
-  "name": "helloworld-webpart",
-  "version": "0.0.1",
+  "name": "pkpost-webparts",
+  "version": "0.0.2",
   "private": true,
   "main": "lib/index.js",
   "scripts": {
