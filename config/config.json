@@ -9,10 +9,37 @@
           "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
         }
       ]
+    },
+    "bv-mitteilung-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bvMitteilung/BvMitteilungWebPart.js",
+          "manifest": "./src/webparts/bvMitteilung/BvMitteilungWebPart.manifest.json"
+        }
+      ]
+    },
+    "bv-mitteilung-alle-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bvMitteilungAlle/BvMitteilungAlleWebPart.js",
+          "manifest": "./src/webparts/bvMitteilungAlle/BvMitteilungAlleWebPart.manifest.json"
+        }
+      ]
+    },
+    "change-management-filter-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/changeManagementFilter/ChangeManagementFilterWebPart.js",
+          "manifest": "./src/webparts/changeManagementFilter/ChangeManagementFilterWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js"
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "BvMitteilungWebPartStrings": "lib/webparts/bvMitteilung/loc/{locale}.js",
+    "BvMitteilungAlleWebPartStrings": "lib/webparts/bvMitteilungAlle/loc/{locale}.js",
+    "ChangeManagementFilterWebPartStrings": "lib/webparts/changeManagementFilter/loc/{locale}.js"
   }
 }

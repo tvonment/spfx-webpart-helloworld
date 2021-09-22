@@ -1,0 +1,93 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.pkNewsAlle {
+  width: 100%;
+
+  .pkNewsResultCard {
+    margin-bottom: 16px;
+  }
+
+  .pkNewsResultCard:hover {
+    background-color: #f4f4f4;
+  }
+
+  .pkNewsResultHeader {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .pkNewsItem:hover {
+    cursor: pointer;
+  }
+
+  .pkNewsResultCenter {
+    font-family: "Segoe UI Web (West European)",Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    padding: 5px;
+  }
+
+  .pkNewsResultCenter div {
+    font-family: "Segoe UI Web (West European)",Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  }
+
+  #pkNewsItemInhalt div {
+    display: none;
+  }
+
+  #pkNewsItemInhalt div:first-child {
+    margin-bottom: 5px;
+    display: block;
+    width: 80%;
+  }
+
+  .pkNewsResultHeader div {
+    width: 88%;
+    float: left;
+  }
+
+  .pkNewsResultHeader a {
+    float: left;
+    font-size: 18px;
+    font-family: "Segoe UI Web (West European)",Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    color: #333333;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .pkNewsResultHeader a:hover {
+    text-decoration: underline;
+  }
+
+  .pkNewsResultHeader span {
+    color: green;
+    float: right;
+    font-weight: bold;
+    width: 10%;
+    padding: 5px;
+  }
+
+  .pkNewsDetail {
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 90%;
+    height: 90%;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 50px;
+    overflow-y: auto;
+  }
+
+  .pkNewsDetailClose {
+    right: 0;
+    margin-right: 50px;
+    position: absolute;
+  }
+
+  .pkNewsDetailClose:hover {
+    cursor: pointer;
+    color: red;
+  }
+}
